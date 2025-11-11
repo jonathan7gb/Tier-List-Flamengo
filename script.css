@@ -1,0 +1,12 @@
+.draggable{
+    cursor: move;
+}
+
+.inDropZone{
+    width: 80px !important;
+    height: 80px !important;
+}
+
+.dropzone.over{
+    background-color: rgb(209, 118, 118);
+}
