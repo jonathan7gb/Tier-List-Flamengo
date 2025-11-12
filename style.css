@@ -2,11 +2,18 @@
     cursor: move;
 }
 
-.inDropZone{
+.draggable.inDropzone{
     width: 80px !important;
     height: 80px !important;
 }
 
 .dropzone.over{
     background-color: rgb(228, 202, 202);
+}
+
+.dropzone{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap;
 }
