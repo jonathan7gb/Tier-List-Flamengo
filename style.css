@@ -1,3 +1,8 @@
+header{
+    background: #f70000;
+    background: radial-gradient(circle,rgba(247, 0, 0, 1) 0%, rgba(181, 24, 24, 1) 49%, rgba(140, 14, 14, 1) 100%);
+}
+
 .draggable{
     cursor: move;
 }
@@ -7,8 +12,17 @@
     height: 80px !important;
 }
 
+.draggable.inDropzone2{
+    width: 150px !important;
+    height: 150px !important;
+}
+
 .dropzone.over{
     background-color: rgb(228, 202, 202);
+}
+
+.dropzone2.over{
+    background-color: rgb(228, 228, 228) !important;
 }
 
 .dropzone{
@@ -16,4 +30,9 @@
     flex-direction: row;
     gap: 1rem;
     flex-wrap: wrap;
+}
+
+.categoria{
+    background: #f70000;
+    background: linear-gradient(166deg,rgba(247, 0, 0, 1) 0%, rgba(181, 24, 24, 1) 49%, rgba(140, 14, 14, 1) 100%);
 }
