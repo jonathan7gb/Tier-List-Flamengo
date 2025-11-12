@@ -8,17 +8,21 @@
     <script>
     tailwind.config = {
         theme: { 
-        extend: {}
+        extend: {
+            fontFamily: {
+                        poppins: ['Poppins', 'sans-serif'],
+                        }
+        }
         }
     }
     </script>
     <link rel="stylesheet" href="./style.css">
 </head>
-<body>
+<body class="font-poppins">
 
     <header class=" py-4 flex flex-row gap-4 justify-center items-center">
         <img src="./images/Flamengo.png" alt="Logo Flamengo" class="w-[60px] h-[60px]">
-        <h1 class="text-white text-3xl font-semibold">TIER LIST - MAIORES JOGADORES DO FLAMENGO</h1>
+        <h1 class="text-white text-3xl font-bold">TIER LIST - MAIORES JOGADORES DO FLAMENGO</h1>
     </header>
 
     <main class="mt-[3rem] flex flex-col justify-center items-center ">
@@ -65,8 +69,8 @@
 
         <!-- SEÇÃO DAS FOTO PARA SELECIONAR -->
          <section class="mt-8 flex flex-col mb-8">
-            <h2 class="font-bold text-3xl text-center mb-4">JOGADORES</h2>
-            <div class="grid grid-cols-8 gap-2 dropzone dropzone2 p-4 rounded-xl shadow-md bg-white">
+            <h2 class="font-bold text-3xl text-center mb-4 text-red-700">JOGADORES</h2>
+            <div class="grid grid-cols-10 gap-2 dropzone dropzone2 p-4 rounded-xl shadow-md bg-white">
                 <img src="./images/BrunoHenrique.png" alt="BrunoHenrique" class="w-[150px] h-[150px] rounded center draggable" draggable="true">
                 <img src="./images/EvertonRibeiro.png" alt="EvertonRibeiro" class="w-[150px] h-[150px] rounded center draggable" draggable="true">
                 <img src="./images/HugoSouza.png" alt="HugoSouza" class="w-[150px] h-[150px] rounded center draggable" draggable="true" >
@@ -91,17 +95,26 @@
                 <img src="./images/Rodolfo.png" alt="Rodolfo" class="w-[150px] h-[150px] rounded center draggable" draggable="true" >
                 <img src="./images/Gabigol.png" alt="Gabigol" class="w-[150px] h-[150px] rounded center draggable" draggable="true">
                 <img src="./images/WillianArao.png" alt="WillianArao" class="w-[150px] h-[150px] rounded center draggable" draggable="true" >
-                <img src="./images/Arrascaeta.png" alt="Arrascaeta.png" class="w-[150px] h-[150px] rounded center draggable" draggable="true" >
-                <img src="./images/Berrio.png" alt="Berrio.png" class="w-[150px] h-[150px] rounded center draggable" draggable="true" >
-                <img src="./images/Gerson.png" alt="Gerson.png" class="w-[150px] h-[150px] rounded center draggable" draggable="true" >
-                <img src="./images/RodrigoCaio.png" alt="RodrigoCaio.png" class="w-[150px] h-[150px] rounded center draggable" draggable="true" >
-                <img src="./images/AyrtonLucas.png" alt="AyrtonLucas.png" class="w-[150px] h-[150px] rounded center draggable" draggable="true" >
-                <img src="./images/FilipeLuis.png" alt="FilipeLuis.png" class="w-[150px] h-[150px] rounded center draggable" draggable="true" >
-                <img src="./images/GustavoHenrique.png" alt="GustavoHenrique.png" class="w-[150px] h-[150px] rounded center draggable" draggable="true" >
-                <img src="./images/LeoPereira.png" alt="LeoPereira.png" class="w-[150px] h-[150px] rounded center draggable" draggable="true" >
-                <img src="./images/Rafinha.png" alt="Rafinha.png" class="w-[150px] h-[150px] rounded center draggable" draggable="true" >
-                <img src="./images/Rene.png" alt="Rene.png" class="w-[150px] h-[150px] rounded center draggable" draggable="true" >
-                <img src="./images/Romario.png" alt="Romario.png" class="w-[150px] h-[150px] rounded center draggable" draggable="true" >
+                <img src="./images/Arrascaeta.png" alt="Arrascaeta" class="w-[150px] h-[150px] rounded center draggable" draggable="true" >
+                <img src="./images/Berrio.png" alt="Berrio" class="w-[150px] h-[150px] rounded center draggable" draggable="true" >
+                <img src="./images/Gerson.png" alt="Gerson" class="w-[150px] h-[150px] rounded center draggable" draggable="true" >
+                <img src="./images/RodrigoCaio.png" alt="RodrigoCaio" class="w-[150px] h-[150px] rounded center draggable" draggable="true" >
+                <img src="./images/AyrtonLucas.png" alt="AyrtonLucas" class="w-[150px] h-[150px] rounded center draggable" draggable="true" >
+                <img src="./images/FilipeLuis.png" alt="FilipeLuis" class="w-[150px] h-[150px] rounded center draggable" draggable="true" >
+                <img src="./images/GustavoHenrique.png" alt="GustavoHenrique" class="w-[150px] h-[150px] rounded center draggable" draggable="true" >
+                <img src="./images/LeoPereira.png" alt="LeoPereira" class="w-[150px] h-[150px] rounded center draggable" draggable="true" >
+                <img src="./images/Rafinha.png" alt="Rafinha" class="w-[150px] h-[150px] rounded center draggable" draggable="true" >
+                <img src="./images/Rene.png" alt="Rene" class="w-[150px] h-[150px] rounded center draggable" draggable="true" >
+                <img src="./images/Romario.png" alt="Romario" class="w-[150px] h-[150px] rounded center draggable" draggable="true" >
+                <img src="./images/HernaniBrocador.png" alt="HernaniBrocador" class="w-[150px] h-[150px] rounded center draggable" draggable="true" >
+                <img src="./images/LeoMoura.png" alt="LeoMoura" class="w-[150px] h-[150px] rounded center draggable" draggable="true" >
+                <img src="./images/Muralha.png" alt="Muralha" class="w-[150px] h-[150px] rounded center draggable" draggable="true" >
+                <img src="./images/Para.png" alt="Para" class="w-[150px] h-[150px] rounded center draggable" draggable="true" >
+                <img src="./images/PauloVictor.png" alt="PauloVictor" class="w-[150px] h-[150px] rounded center draggable" draggable="true" >
+                <img src="./images/RonaldinhoGaucho.png" alt="RonaldinhoGaucho" class="w-[150px] h-[150px] rounded center draggable" draggable="true" >
+                <img src="./images/Trauco.png" alt="Trauco" class="w-[150px] h-[150px] rounded center draggable" draggable="true" >
+                <img src="./images/VagnerLove.png" alt="VagnerLove" class="w-[150px] h-[150px] rounded center draggable" draggable="true" >
+                <img src="./images/Wallace.png" alt="Wallace" class="w-[150px] h-[150px] rounded center draggable" draggable="true" >
             </div>
          </section>
     </main>
